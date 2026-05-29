@@ -1,0 +1,97 @@
+AI Based Travel Planner
+Objective:
+Design an intelligent travel planner that uses a knowledge base of tourist destinations, attractions, food recommendations and budget information to generate personalized travel plans.
+
+A traveler provides:
+
+Interests
+Budget
+Duration of stay
+
+The AI system recommends:
+
+Suitable destination
+Tourist attractions
+Food recommendations
+Estimated trip cost
+Daily itinerary
+Knowledge Base
+
+The system contains information regarding:
+
+Cities:
+Jaipur
+Goa
+Delhi
+Kerala
+Manali
+
+Attractions:
+for eg.
+Amber Fort
+Hawa Mahal
+Baga Beach
+India Gate
+Solang Valley
+Food Recommendations
+
+Examples:
+Dal Baati Churma
+Fish Curry
+Street Food
+Kerala Sadya
+AI Components Used
+Knowledge Representation
+
+Tourism information is represented using structured objects.
+
+Recommendation Engine
+
+Cities are scored based on:
+
+User interests
+Budget compatibility
+Attraction ratings
+Food ratings
+Cost Assessment
+
+Total cost includes:
+
+Accommodation
+Food
+Transportation
+Attraction expenses
+Sample Input
+
+Interests:
+history, food
+
+Budget:
+15000
+
+Days:
+3
+
+Sample Output
+
+Recommended Destination:
+Jaipur
+
+Suggested Attractions:
+
+Amber Fort
+Hawa Mahal
+City Palace
+
+Food Recommendations:
+
+Dal Baati Churma
+Traditional Rajasthani Cuisine
+
+Estimated Cost:
+₹12,000
+
+Applications
+1. Smart tourism
+2. Travel recommendation systems
+3. Personalized trip planning
