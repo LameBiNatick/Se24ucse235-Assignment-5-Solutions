@@ -1,0 +1,57 @@
+Knowledge Graphs:
+
+Introduction
+A Knowledge Graph is a graph-based representation of information where entities are connected through relationships.
+
+Components:
+1. Entities
+Examples:
+Jaipur
+Goa
+Amber Fort
+Baga Beach
+
+2. Relationships
+Examples:
+HAS_ATTRACTION
+HAS_FOOD
+LOCATED_IN
+KNOWN_FOR
+
+Example Knowledge Graphs:
+
+Jaipur → HAS_ATTRACTION → Amber Fort
+Jaipur → HAS_FOOD → Dal Baati Churma
+Goa → HAS_ATTRACTION → Baga Beach
+Goa → KNOWN_FOR → Nightlife
+
+Advantages
+1. Structured knowledge representation.
+2. Easy relationship discovery.
+3. Supports intelligent querying.
+4. Used in recommendation systems.
+
+Tools I used for Building Knowledge Graphs:- 
+1. Neo4j
+Graph database for storing and querying graph data.
+
+2. Protégé
+Ontology development tool.
+
+3. RDFLib
+Python library for RDF graph creation.
+
+4. Apache Jena
+Framework for semantic web applications.
+
+5. GraphDB
+Enterprise knowledge graph platform.
+
+6. NetworkX
+Python graph analysis library.
+
+Applications
+1. Search engines
+2. Recommendation systems
+3. Question answering systems
+4. Tourism planning
