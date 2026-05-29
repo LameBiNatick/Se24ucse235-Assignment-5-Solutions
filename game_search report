@@ -1,0 +1,93 @@
+Implementation of Minimax Search, Alpha-Beta Search, Heuristic Alpha-Beta Search and Monte-Carlo Tree Search
+Objective
+
+The objective of this question is to implement and compare four important AI search algorithms used in game playing and decision making:
+
+Minimax Search
+Alpha-Beta Pruning
+Heuristic Alpha-Beta Search
+Monte-Carlo Tree Search (MCTS)
+Minimax Search
+
+Minimax is an adversarial search algorithm used in two-player games. It assumes that both players play optimally.
+
+Working:
+MAX player tries to maximize the score.
+MIN player tries to minimize the score.
+The game tree is explored until terminal states are reached.
+The best move is selected based on utility values.
+Advantages
+Guarantees optimal move.
+Suitable for deterministic games.
+Disadvantages
+Large search space.
+High computational cost.
+Alpha-Beta Pruning
+
+Alpha-Beta pruning is an optimization of Minimax.
+
+Working
+Alpha represents the best value that MAX can guarantee.
+Beta represents the best value that MIN can guarantee.
+Branches that cannot affect the final decision are pruned.
+Advantages
+Produces same result as Minimax.
+Faster than Minimax.
+Explores fewer nodes.
+Heuristic Alpha-Beta Search
+
+In large games it is impossible to search the entire tree.
+
+Working
+Search is limited to a fixed depth.
+Heuristic evaluation function estimates board quality.
+Alpha-Beta pruning is applied to reduce computations.
+Advantages
+Faster search.
+Can handle large game trees.
+Practical for real-world games.
+Monte-Carlo Tree Search (MCTS)
+
+MCTS uses random simulations to estimate the quality of moves.
+
+Phases
+1.Selection
+2.Expansion
+3.Simulation (Rollout)
+4.Backpropagation
+Advantages
+1.Handles very large search spaces.
+2.Used in modern game-playing AI.
+3.Does not require handcrafted evaluation functions.
+Applications
+Chess
+Go
+Tic-Tac-Toe
+Strategic planning
+Test Cases
+
+Test Case 1: Empty Tic-Tac-Toe Board
+Input:
+Empty board
+Output:
+Minimax chooses center position.
+Alpha-Beta chooses center position.
+Heuristic Alpha-Beta chooses center position.
+MCTS selects a statistically favorable move.
+
+Test Case 2: Mid-Game Board
+Input:
+Partially filled Tic-Tac-Toe board
+Output:
+Algorithms identify best winning or blocking move.
+
+Test Case 3: Nim Game
+Input:
+Number of stones = 7
+Output:
+Optimal action selected using game tree search.
+Observation
+Alpha-Beta produces the same result as Minimax.
+Alpha-Beta explores fewer states.
+Heuristic Alpha-Beta is suitable for deeper searches.
+MCTS performs well using simulations.
