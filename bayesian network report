@@ -1,0 +1,56 @@
+Bayesian Networks
+
+Introduction
+A Bayesian Network is a probabilistic graphical model representing random variables and their dependencies.
+
+Example Problem
+
+Predict whether a person will travel based on:
+1. Weather
+2. Budget
+
+Network Structure
+Weather -> Travel
+Budget -> Travel
+
+Variables:
+Weather: Good, Bad
+Budget: High, Low
+Travel: Yes, No
+Conditional Probability Table
+Weather -	Budget - P(Travel)
+Good - High	- 0.95
+Good - Low - 0.75
+Bad - High - 0.50
+Bad - Low - 0.10
+
+Inference:
+Using probability rules, the network computes the probability that a person will travel.
+
+Result:
+P(Travel) ≈ 0.697
+
+Tools for Bayesian Networks
+1. pgmpy
+Python library for Bayesian Networks.
+
+2. Bayes Server
+Commercial Bayesian Network platform.
+
+3. GeNIe
+Graphical modeling environment.
+
+4. Netica
+Bayesian reasoning software.
+
+5. Hugin
+Decision support and inference tool.
+
+6. bnlearn
+Bayesian structure learning package.
+
+Applications
+1. Medical diagnosis
+2. Risk analysis
+3. Decision support systems
+4. Predictive analytics
